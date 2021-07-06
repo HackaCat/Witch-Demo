@@ -1,0 +1,80 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-image{
+    background-image: url(../images/tarot.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -3.25rem;
+    background-position: left bottom;
+}
+
+.links li {
+    display: inline;
+}
+
+.navbar{
+    background: none!important;
+}
+
+.square-image {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.image-text, .square-image{
+    width: 50%;
+}
+
+.column-one, .column-two, .column-three {
+    color: #c9cfd3;
+}
+
+.descr-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.split-container {
+    background-color: #c6c4ca;
+}
+
+.hero-text{
+    text-align:right;
+}
+
+.hero-text > h1 {
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+}
+
+.hero.split-container.is-halfheight div, .hero.split-container.is-halfheight img {
+    width: 50%;
+}
+
+.split-img{
+    background-image: url('../images/rosemary.jpg');  
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    }
+
+    .navbar {
+        background-color: #fffc !important;
+    }
+.section-text{
+    width: 49%;
+    height: 600px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.hero.split-container.is-halfheight {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-column{
+    height: 100%;
+}
